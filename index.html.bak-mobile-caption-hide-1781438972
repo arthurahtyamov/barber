@@ -644,86 +644,6 @@ color:rgba(255,255,255,.75)!important;
 
 }
 
-
-/* mobile-caption-hide-v1 */
-@media(max-width:900px){
-  .mobile-slider .m-caption{
-    display:none!important;
-  }
-
-  .mobile-slider .m-slide:after{
-    height:22%!important;
-    background:linear-gradient(
-      180deg,
-      rgba(0,0,0,0) 0%,
-      rgba(0,0,0,.35) 100%
-    )!important;
-  }
-
-  .mobile-slider{
-    height:430px!important;
-  }
-
-  .mobile-slider .m-slide img{
-    object-fit:cover!important;
-    object-position:center center!important;
-  }
-}
-
-
-/* mobile-slider-clean-v2 */
-@media(max-width:900px){
-  .mobile-slider{
-    height:430px!important;
-    border-radius:26px!important;
-  }
-
-  .mobile-slider .m-slide:after{
-    display:none!important;
-  }
-
-  .mobile-slider .m-slide img{
-    width:100%!important;
-    height:100%!important;
-    object-fit:cover!important;
-    object-position:center center!important;
-    filter:brightness(.96) contrast(1.02)!important;
-  }
-
-  .mobile-slider .dots{
-    left:0!important;
-    right:0!important;
-    bottom:6px!important;
-    z-index:20!important;
-    height:16px!important;
-    align-items:center!important;
-    pointer-events:none!important;
-  }
-
-  .mobile-slider .dot{
-    width:20px!important;
-    height:4px!important;
-    background:rgba(255,255,255,.28)!important;
-  }
-
-  .mobile-slider .dot.active{
-    background:#fff!important;
-  }
-}
-
-
-/* restore-original-meanings-v1 */
-.original-hero-panel{
-  grid-template-columns:repeat(2,1fr)!important;
-  width:min(680px,calc(100% - 40px))!important;
-}
-.original-hero-panel div:nth-child(2){
-  border-right:0!important;
-}
-@media(max-width:900px){
-  .original-hero-panel{display:none!important}
-}
-
 </style>
 </head>
 <body><main class="page">
@@ -739,9 +659,11 @@ color:rgba(255,255,255,.75)!important;
 
     <div class="subtitle">by Barber Community</div>
 
-    <div class="hero-panel original-hero-panel">
-      <div><i class="ico">✦</i><p><b>A Comprehensive</b><span>Online Course</span></p></div>
-      <div><i class="ico">▶</i><p><b>20 Detailed</b><span>Video Lessons</span></p></div>
+    <div class="hero-panel">
+      <div><i class="ico">▶</i><p><b>20+ detailed</b><span>video lessons</span></p></div>
+      <div><i class="ico">✂</i><p><b>Step by step</b><span>tutorials</span></p></div>
+      <div><i class="ico">◎</i><p><b>Real client</b><span>examples</span></p></div>
+      <div><i class="ico">★</i><p><b>Level up</b><span>your skills</span></p></div>
     </div>
 
     
@@ -795,57 +717,7 @@ color:rgba(255,255,255,.75)!important;
     </div>
   </div>
 </section>
-<section id="content">
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <div class="section-kicker">Course Content</div>
-        <h2 class="section-title">Master the most popular longer men’s hairstyles</h2>
-      </div>
-      <p class="section-text">A comprehensive online course with twenty detailed video lessons focused on the most requested longer men’s haircuts.</p>
-    </div>
-
-    <div class="grid">
-      <article class="card"><div class="num">01</div><h3>Detailed Video Lessons</h3><p>Clear visual breakdowns for every haircut, from shape and sectioning to final styling.</p></article>
-      <article class="card"><div class="num">02</div><h3>Step-by-step Process</h3><p>Follow the complete workflow and understand what to do at every stage.</p></article>
-      <article class="card"><div class="num">03</div><h3>Popular Hairstyles</h3><p>Learn the longer men’s hairstyles clients actually ask for in the chair.</p></article>
-      <article class="card"><div class="num">04</div><h3>Real Barber Practice</h3><p>Built for barbers who want practical, repeatable techniques they can use immediately.</p></article>
-    </div>
-  </div>
-</section>
+<section id="content"><div class="wrap"><div class="section-head"><div><div class="section-kicker">What is inside</div><h2 class="section-title">One course. Four barber perspectives.</h2></div><p class="section-text">The same core promise as the reference: detailed education for longer men’s hairstyles, now delivered through a premium barber community format.</p></div><div class="grid"><article class="card"><div class="num">01</div><h3>Classic shape</h3><p>Timeless silhouettes, balance, sectioning and salon-ready longer hairstyles.</p></article><article class="card"><div class="num">02</div><h3>Clean technique</h3><p>Transitions, control, blending, and details that make the haircut look expensive.</p></article><article class="card"><div class="num">03</div><h3>Texture & flow</h3><p>Movement, styling, natural finish and modern editorial direction.</p></article><article class="card"><div class="num">04</div><h3>Barber value</h3><p>How to present the work, increase perceived value and grow with the community.</p></article></div></div></section>
 <section><div class="wrap"><div class="section-head"><div><div class="section-kicker">20 Lessons</div><h2 class="section-title">The styles you master</h2></div><p class="section-text">A library of practical lessons focused on popular longer men’s haircuts.</p></div><div class="styles"><div class="style"><b>Middle Part</b><span>Detailed video lesson</span></div><div class="style"><b>Flow Cut</b><span>Detailed video lesson</span></div><div class="style"><b>Textured Fringe</b><span>Detailed video lesson</span></div><div class="style"><b>Modern Mullet</b><span>Detailed video lesson</span></div><div class="style"><b>Layered Cut</b><span>Detailed video lesson</span></div><div class="style"><b>Bro Flow</b><span>Detailed video lesson</span></div><div class="style"><b>Curtains</b><span>Detailed video lesson</span></div><div class="style"><b>Wolf Cut</b><span>Detailed video lesson</span></div><div class="style"><b>Long Crop</b><span>Detailed video lesson</span></div><div class="style"><b>Side Part</b><span>Detailed video lesson</span></div><div class="style"><b>Shaggy Layers</b><span>Detailed video lesson</span></div><div class="style"><b>Surfer Hair</b><span>Detailed video lesson</span></div><div class="style"><b>Soft Taper</b><span>Detailed video lesson</span></div><div class="style"><b>Executive Flow</b><span>Detailed video lesson</span></div><div class="style"><b>Messy Texture</b><span>Detailed video lesson</span></div><div class="style"><b>Disconnected Top</b><span>Detailed video lesson</span></div><div class="style"><b>Natural Waves</b><span>Detailed video lesson</span></div><div class="style"><b>Long Scissor Cut</b><span>Detailed video lesson</span></div><div class="style"><b>Beard Balance</b><span>Detailed video lesson</span></div><div class="style"><b>Final Styling</b><span>Detailed video lesson</span></div></div></div></section>
-<section id="price">
-  <div class="wrap">
-    <div class="price">
-      <div class="price-box">
-        <div class="section-kicker">Access</div>
-        <h2 class="section-title">Get the online course</h2>
-        <div class="amount">$99</div>
-        <a class="btn" href="#top">Get Access</a>
-      </div>
-      <div class="list">
-        <div>A comprehensive online course</div>
-        <div>20 detailed video lessons</div>
-        <div>The most popular longer men’s hairstyles</div>
-        <div>Step-by-step haircut breakdowns</div>
-        <div>Mobile-friendly access</div>
-        <div>Created by Barber Community</div>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <div class="section-kicker">FAQ</div>
-        <h2 class="section-title">Questions</h2>
-      </div>
-    </div>
-    <div class="faq">
-      <details open><summary>Who is this course for?</summary><p>For barbers and stylists who want to master the most popular longer men’s hairstyles.</p></details>
-      <details><summary>What is included?</summary><p>A comprehensive online course with 20 detailed video lessons.</p></details>
-      <details><summary>Can I watch it on mobile?</summary><p>Yes. The landing and course access are mobile-friendly.</p></details>
-    </div>
-  </div>
-</section><footer class="footer"><div class="wrap">© Barber Community. The Most Popular Longer Men’s Hairstyles.</div></footer></main><script>const slides=[...document.querySelectorAll('.m-slide')],dots=[...document.querySelectorAll('.dot')];let i=0;setInterval(()=>{slides[i].classList.remove('active');dots[i].classList.remove('active');i=(i+1)%slides.length;slides[i].classList.add('active');dots[i].classList.add('active')},2600)</script></body></html>
+<section id="price"><div class="wrap"><div class="price"><div class="price-box"><div class="section-kicker">Access</div><h2 class="section-title">Join Barber Community</h2><div class="amount">$99</div><a class="btn" href="#top">Get Access</a></div><div class="list"><div>20+ detailed video lessons</div><div>Four barber perspectives</div><div>Step-by-step tutorials</div><div>Real client examples</div><div>Mobile-friendly access</div><div>Community support</div></div></div></div></section>
+<section><div class="wrap"><div class="section-head"><div><div class="section-kicker">FAQ</div><h2 class="section-title">Questions</h2></div></div><div class="faq"><details open><summary>Who is this for?</summary><p>For barbers and stylists who want to improve longer men’s hairstyles and understand the full process from shape to styling.</p></details><details><summary>Is it beginner friendly?</summary><p>Yes. Lessons are structured step by step, but the visual level is premium and professional.</p></details><details><summary>How does mobile work?</summary><p>On mobile the hero switches to individual barber cards, so the first screen stays clean and readable.</p></details></div></div></section><footer class="footer"><div class="wrap">© Barber Community. The Most Popular Longer Men’s Hairstyles.</div></footer></main><script>const slides=[...document.querySelectorAll('.m-slide')],dots=[...document.querySelectorAll('.dot')];let i=0;setInterval(()=>{slides[i].classList.remove('active');dots[i].classList.remove('active');i=(i+1)%slides.length;slides[i].classList.add('active');dots[i].classList.add('active')},2600)</script></body></html>
