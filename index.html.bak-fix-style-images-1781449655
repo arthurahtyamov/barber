@@ -83,50 +83,6 @@ section{padding:70px 0}
 .benefits,.styles,.bonuses,.price,.community{grid-template-columns:1fr}
 .amount{font-size:68px}
 }
-
-/* ref-style-cards-v1 */
-.styles{
-  grid-template-columns:repeat(2,1fr)!important;
-  gap:34px!important;
-}
-.style-card{
-  border-radius:12px!important;
-  border:2px solid rgba(255,255,255,.36)!important;
-  background:#151515!important;
-  overflow:hidden!important;
-}
-.style-card img{
-  aspect-ratio:16/9!important;
-  object-fit:cover!important;
-  filter:none!important;
-}
-.style-card div{
-  padding:30px 34px 34px!important;
-}
-.style-card h3{
-  font-size:30px!important;
-  margin:0 0 28px!important;
-}
-.learn-more{
-  display:inline-flex!important;
-  align-items:center!important;
-  justify-content:center!important;
-  min-width:220px!important;
-  height:64px!important;
-  border:2px solid #d6a95d!important;
-  border-radius:14px!important;
-  color:#e4bd73!important;
-  font-weight:900!important;
-  letter-spacing:.18em!important;
-  text-transform:uppercase!important;
-}
-@media(max-width:900px){
-  .styles{grid-template-columns:1fr!important;gap:22px!important}
-  .style-card div{padding:22px!important}
-  .style-card h3{font-size:24px!important}
-  .learn-more{width:100%;min-width:0;height:56px}
-}
-
 </style>
 </head>
 <body>
@@ -173,167 +129,86 @@ section{padding:70px 0}
       <div><div class="kicker">20 Lessons</div><h2 class="title">The styles you master</h2></div>
       <p class="lead">The same course idea: practical lessons on the most popular longer men’s hairstyles.</p>
     </div>
-    <div class="styles">
+    <div class="styles"><article class="style-card">
+      <img src="assets/ref/tild3062-6362-4462-a238-623636376633_-_resize_20x_image_106-15.png" alt="Flow Cut">
+      <div><span>Lesson 01</span><h3>Flow Cut</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild6433-3237-4165-a132-616662336337_image_306.png" alt="Textured Short Mullet">
-  <div>
-    <h3>Textured Short Mullet</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3063-3039-4334-b336-616139656432_-_resize_20x_image_106-4.png" alt="Square Graduation">
+      <div><span>Lesson 02</span><h3>Square Graduation</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild3032-6431-4635-b435-306235653838_image_307.png" alt="Round and Textured Mullet">
-  <div>
-    <h3>Round and Textured Mullet</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3064-6265-4165-a130-386534666137_-_resize_20x_image_106-5.png" alt="Triangular Shape">
+      <div><span>Lesson 03</span><h3>Triangular Shape</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild6566-3036-4430-b361-306262386437_image_308.png" alt="Flow Cut">
-  <div>
-    <h3>Flow Cut</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3231-3963-4366-b866-393664333065_-_resize_20x_image_106-8.png" alt="Round Graduation">
+      <div><span>Lesson 04</span><h3>Round Graduation</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild6365-6632-4463-a435-383633336262_image_309.png" alt="Square Graduation">
-  <div>
-    <h3>Square Graduation</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3233-6563-4134-b237-396362356364_-_resize_20x_image_106.png" alt="Firefly">
+      <div><span>Lesson 05</span><h3>Firefly</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild6334-3735-4632-a437-383062646165_image_313.png" alt="Triangular Shape">
-  <div>
-    <h3>Triangular Shape</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3235-6336-4362-b865-646634346530_-_resize_20x_image_106-1.png" alt="Textured Crop">
+      <div><span>Lesson 06</span><h3>Textured Crop</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild3162-3564-4530-a133-623639333037_image_319.png" alt="Round Graduation">
-  <div>
-    <h3>Round Graduation</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3361-3164-4637-b736-383963333035_-_resize_20x_image_106-7.png" alt="British Mullet">
+      <div><span>Lesson 07</span><h3>British Mullet</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild3866-3838-4662-b462-336239336235_image_321.png" alt="Firefly">
-  <div>
-    <h3>Firefly</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3362-3637-4332-b063-663738623466_-_resize_20x_image_106-10.png" alt="Round Layers">
+      <div><span>Lesson 08</span><h3>Round Layers</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild6232-6664-4635-b138-366161323932_image_323.png" alt="Textured Crop">
-  <div>
-    <h3>Textured Crop</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3433-6166-4339-b636-326438363363_-_resize_20x_image_106-3.png" alt="Middle Part">
+      <div><span>Lesson 09</span><h3>Middle Part</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild6433-3237-4165-a132-616662336337_image_306.png" alt="British Mullet">
-  <div>
-    <h3>British Mullet</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3464-3932-4262-b134-336137333637_-_resize_20x_image_106-2.png" alt="Curtains">
+      <div><span>Lesson 10</span><h3>Curtains</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild3032-6431-4635-b435-306235653838_image_307.png" alt="Round Layers">
-  <div>
-    <h3>Round Layers</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3633-3265-4963-b163-313939386661_-_resize_20x_image_106-14.png" alt="Modern Mullet">
+      <div><span>Lesson 11</span><h3>Modern Mullet</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild6566-3036-4430-b361-306262386437_image_308.png" alt="Middle Part">
-  <div>
-    <h3>Middle Part</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3638-3732-4634-a635-303135303065_-_resize_20x_image_106-4.png" alt="Layered Cut">
+      <div><span>Lesson 12</span><h3>Layered Cut</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild6365-6632-4463-a435-383633336262_image_309.png" alt="Curtains">
-  <div>
-    <h3>Curtains</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3665-3934-4864-b662-626334643932_-_resize_20x_image_106-6.png" alt="Bro Flow">
+      <div><span>Lesson 13</span><h3>Bro Flow</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild6334-3735-4632-a437-383062646165_image_313.png" alt="Modern Mullet">
-  <div>
-    <h3>Modern Mullet</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3765-3233-4537-b638-376363626164_-_resize_20x_image_106-13.png" alt="Wolf Cut">
+      <div><span>Lesson 14</span><h3>Wolf Cut</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild3162-3564-4530-a133-623639333037_image_319.png" alt="Layered Cut">
-  <div>
-    <h3>Layered Cut</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3934-6638-4039-a433-623233353135_-_resize_20x_image_106.png" alt="Soft Taper">
+      <div><span>Lesson 15</span><h3>Soft Taper</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild3866-3838-4662-b462-336239336235_image_321.png" alt="Bro Flow">
-  <div>
-    <h3>Bro Flow</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild3966-6537-4631-b231-336631306265_-_resize_20x_image_106-5.png" alt="Executive Flow">
+      <div><span>Lesson 16</span><h3>Executive Flow</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild6232-6664-4635-b138-366161323932_image_323.png" alt="Wolf Cut">
-  <div>
-    <h3>Wolf Cut</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild6237-6632-4137-b530-333765663635_-_resize_20x_image_106-7.png" alt="Natural Waves">
+      <div><span>Lesson 17</span><h3>Natural Waves</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild6433-3237-4165-a132-616662336337_image_306.png" alt="Soft Taper">
-  <div>
-    <h3>Soft Taper</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild6238-6138-4339-a361-383737633866_-_resize_20x_image_106-9.png" alt="Long Scissor Cut">
+      <div><span>Lesson 18</span><h3>Long Scissor Cut</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild3032-6431-4635-b435-306235653838_image_307.png" alt="Executive Flow">
-  <div>
-    <h3>Executive Flow</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
+      <img src="assets/ref/tild6239-6163-4364-b466-353734623065_-_resize_20x_image_106-2.png" alt="Beard Balance">
+      <div><span>Lesson 19</span><h3>Beard Balance</h3><p>Detailed video lesson</p></div>
+    </article>
 <article class="style-card">
-  <img src="assets/ref/tild6566-3036-4430-b361-306262386437_image_308.png" alt="Natural Waves">
-  <div>
-    <h3>Natural Waves</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-
-<article class="style-card">
-  <img src="assets/ref/tild6365-6632-4463-a435-383633336262_image_309.png" alt="Long Scissor Cut">
-  <div>
-    <h3>Long Scissor Cut</h3>
-    <a class="learn-more" href="#content">Learn More ↗</a>
-  </div>
-</article>
-</div>
+      <img src="assets/ref/tild6363-3965-4534-a263-343032393231_-_resize_20x_image_106-8.png" alt="Final Styling">
+      <div><span>Lesson 20</span><h3>Final Styling</h3><p>Detailed video lesson</p></div>
+    </article></div>
   </div>
 </section>
 
