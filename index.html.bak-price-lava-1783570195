@@ -127,24 +127,6 @@ section{padding:70px 0}
   .learn-more{width:100%;min-width:0;height:56px}
 }
 
-
-/* lava-widget-v1 */
-.lava-widget{
-  margin-top:18px;
-  display:flex;
-  align-items:center;
-  justify-content:flex-start;
-}
-.lava-widget iframe{
-  display:block;
-  max-width:100%;
-}
-@media(max-width:900px){
-  .lava-widget{
-    justify-content:center;
-  }
-}
-
 </style>
 </head>
 <body>
@@ -375,11 +357,9 @@ section{padding:70px 0}
       <div class="price-box">
         <div class="kicker">Access</div>
         <h2 class="title">Get Instant Access to 20 Learning Lessons</h2>
-        <div class="amount-old">$299 USD</div>
-        <div class="amount">$99</div>
-        <div class="lava-widget">
-  <iframe title="lava.top" style="border: none" width="250" height="80" src="https://widget.lava.top/8590479a-18c5-4c64-8c70-841b24f1028b"></iframe>
-</div>
+        <div class="amount-old">$599 USD</div>
+        <div class="amount">$299</div>
+        <a class="btn" href="#top">Get Access</a>
       </div>
       <div class="list">
         <div>A comprehensive online course</div>
