@@ -145,58 +145,6 @@ section{padding:70px 0}
   }
 }
 
-
-/* legal-footer-v1 */
-.footer{
-  padding:38px 0!important;
-  border-top:1px solid rgba(255,255,255,.1)!important;
-  background:#050505!important;
-}
-.footer-inner{
-  display:flex!important;
-  align-items:flex-start!important;
-  justify-content:space-between!important;
-  gap:36px!important;
-}
-.footer-copy{
-  max-width:420px!important;
-  color:rgba(255,255,255,.44)!important;
-  font-size:13px!important;
-  line-height:1.5!important;
-}
-.footer-legal{
-  display:flex!important;
-  justify-content:flex-end!important;
-  flex-wrap:wrap!important;
-  gap:12px 26px!important;
-}
-.footer-legal a{
-  color:rgba(255,255,255,.68)!important;
-  font-size:13px!important;
-  line-height:1.4!important;
-  text-decoration:none!important;
-  border-bottom:1px solid rgba(255,255,255,.24)!important;
-  transition:color .2s ease,border-color .2s ease!important;
-}
-.footer-legal a:hover{
-  color:#fff!important;
-  border-color:#fff!important;
-}
-@media(max-width:900px){
-  .footer{
-    padding:32px 0!important;
-  }
-  .footer-inner{
-    flex-direction:column!important;
-    gap:24px!important;
-  }
-  .footer-legal{
-    flex-direction:column!important;
-    align-items:flex-start!important;
-    gap:14px!important;
-  }
-}
-
 </style>
 </head>
 <body>
@@ -465,22 +413,7 @@ section{padding:70px 0}
   </div>
 </section>
 
-<footer class="footer">
-  <div class="wrap footer-inner">
-    <div class="footer-copy">© Barber Community. The Most Popular Longer Men's Hairstyles.</div>
-
-    <nav class="footer-legal" aria-label="Legal documents">
-      <a href="https://docs.google.com/document/d/1ERbLmnvRwe1xXuk5Xbjxb-ZCkwmXkMYjltzC5yhEil0/edit?tab=t.0"
-         target="_blank" rel="noopener noreferrer">Terms of Offer</a>
-
-      <a href="https://docs.google.com/document/d/1ERbLmnvRwe1xXuk5Xbjxb-ZCkwmXkMYjltzC5yhEil0/edit?tab=t.4hrq4ko118mn"
-         target="_blank" rel="noopener noreferrer">Refund Policy</a>
-
-      <a href="https://docs.google.com/document/d/1ERbLmnvRwe1xXuk5Xbjxb-ZCkwmXkMYjltzC5yhEil0/edit?tab=t.d8m51qjwoc5p"
-         target="_blank" rel="noopener noreferrer">Personal Data Processing Policy</a>
-    </nav>
-  </div>
-</footer>
+<footer class="footer"><div class="wrap">© Barber Community. The Most Popular Longer Men's Hairstyles.</div></footer>
 
 </main>
 <script>
